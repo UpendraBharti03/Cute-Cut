@@ -1,0 +1,264 @@
+*{
+    font-family: 'Source Code Pro', monospace;  
+    transition: 0.1s;
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+/* navbar */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: turquoise;
+    font-weight: 700;
+    opacity: 0.7;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(73, 134, 11);
+}
+.name-logo{
+    margin: 0 0 0 50px;
+    font-size: 50px;
+}
+.name-logo:hover{
+    transform:scale(0.9, 0.9);
+    transition: 0.6s;
+}
+.name-logo a{
+    color: white;
+}
+.menu-btn{
+    background-color: transparent;
+    border: none;
+    margin: 10px 0 0px 20px;
+}
+.nav{
+   list-style: none;
+   margin: 20px 50px 0 300px;
+}
+.list-item{
+    float: right;
+    margin:  0 10px 0 20px;
+}
+.nav ul{
+    list-style: none;
+}
+.sub-list{
+    display: none;
+}
+.list-item:hover .sub-list{
+    display: block;
+}
+
+/* navbar end */
+
+/* section services start */
+
+.services{
+    color: #4a4a4a;
+}
+
+.services .back-img{
+    margin: 0 0 0 0;
+    background-image: url('img/cute\ cut\ 6.jpg');
+    width: 1263.6px;
+    height: 460px;
+    background-size: cover;
+}
+
+.services .heading{
+    margin: 0 0 0 0;
+    padding: 240px 0 138px 0;
+    background-color: rgba(64, 224, 208, 0.301);
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.services .heading2{
+    color: #3396a3;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.services .row1, .row2{
+    display: flex;
+}
+
+.services .cut, .specialty, .coloring, .conditioning-treatments, .waxing, .Textured-hair-services{
+    margin: 5px 50px 5px 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.services .cut .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services .specialty .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services .waxing .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services .coloring .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services .conditioning-treatments .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services .Textured-hair-services .sub-heading{
+    color: #3b3b3b;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.services hr{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 70%;
+    border: 0.00001px solid #4a4a4a41;
+}
+
+.services .pricing-call{
+    margin-top: 70px;
+    padding: 10px;
+    color: #3b3b3b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services .pricing-info{
+    margin: 0 185px 0 185px;
+    color: #4a4a4ab6;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.services .paragraph{
+    margin: 10px 185px 10px 185px;
+    padding: 10px;
+    color: #4a4a4a;
+    text-align: center;
+    font-family: cursive, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.services .img2{
+    width: 45%;
+    height: 450px;
+    margin: 30px 20px 110px 30px;
+}
+
+/* section services end */
+
+
+/* footer of site start */
+
+.footerofsite{
+    margin: 20px 0 0 0;
+    padding: 40px 0 40px 0;
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 20px grey;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footerofsite .address{
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.footerofsite a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footerofsite a:hover{
+    color: rgba(255, 255, 255, 0.363);
+}
+
+.footerofsite .facebook img{
+    margin-bottom: 0;
+    background-color: transparent;
+    color: black;
+    width: 26px;
+    height: 30px;
+}
+
+.footerofsite .instagram img{
+    margin-bottom: 0;
+    background-color: transparent;
+    color: black;
+    width: 26px;
+    height: 26px;
+}
+
+.footerofsite .twitter img{
+    margin-bottom: 0;
+    background-color: transparent;
+    color: black;
+    width: 32px;
+    height: 32px;
+}
+
+.footerofsite #social-media:hover{
+    margin: 5px;
+    padding: 5px;
+}
+
+.footerofsite .created-by{
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    font-weight: 500;
+}
+
+.footerofsite .upendra{
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.footerofsite .up-info{
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+/* footer of site end */

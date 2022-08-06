@@ -1,0 +1,70 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    background-color: turquoise;
+    transition:0.1s;
+    
+}
+
+body{
+
+}
+
+.close{
+    float: left;
+    margin: 0 0 0 15px;
+}
+.close-btn{
+    background-color: transparent;
+    border: none;
+    
+}
+.close-link{
+    text-decoration: none;
+}
+.close-icon{
+    
+}
+
+.name-logo{
+    margin-right: 120px;
+    font-size: 50px;
+    font-weight:900;
+    color:white;
+    text-align: right;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list{
+    margin: 10px 0 0 90px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.list-item{
+    margin: 20px 0 0 0;
+    padding: 5px 0 5px 0;
+}
+
+.paota-list{
+    font-size: 20px;
+    margin: 6px 0 6px 20px;
+    padding: 3px 0 3px 0;
+}
+
+.aakhaliya-list{
+    font-size: 20px;
+    margin: 6px 0 6px 20px;
+    padding: 3px 0 3px 0;
+}
+
+a:hover{
+    color: rgb(73, 134, 11);
+}
